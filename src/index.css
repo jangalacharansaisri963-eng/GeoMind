@@ -1,0 +1,146 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-slate-950 text-slate-100;
+  }
+
+  /* Smooth transitions for all interactive elements */
+  button,
+  input,
+  textarea,
+  select {
+    @apply transition-all duration-200 ease-out;
+  }
+}
+
+@layer components {
+  /* Glowing emerald accent */
+  .glow-emerald {
+    @apply shadow-lg shadow-emerald-500/20;
+  }
+
+  /* Smooth fade-in animation */
+  .fade-in {
+    @apply animate-fade-in;
+  }
+
+  /* Smooth slide-in from right */
+  .slide-in-right {
+    @apply animate-slide-in-right;
+  }
+
+  /* Pulse animation with emerald */
+  .pulse-emerald {
+    @apply animate-pulse;
+  }
+
+  /* Smooth backdrop blur */
+  .backdrop-blur-sm {
+    @apply backdrop-blur-sm;
+  }
+
+  /* Message card styles */
+  .message-card {
+    @apply rounded-2xl p-4 sm:p-5 shadow-md transition-all duration-300 hover:shadow-lg;
+  }
+
+  .message-user {
+    @apply message-card bg-emerald-600 text-slate-950 font-medium rounded-tr-none;
+  }
+
+  .message-assistant {
+    @apply message-card bg-slate-800/90 text-slate-100 border border-slate-700/70 rounded-tl-none;
+  }
+
+  /* Tab transitions */
+  .tab-button {
+    @apply px-3.5 py-2 rounded-lg text-sm font-medium transition-all duration-200 ease-out;
+  }
+
+  .tab-active {
+    @apply bg-emerald-500/15 text-emerald-400 border border-emerald-500/30;
+  }
+
+  .tab-inactive {
+    @apply text-slate-400 hover:text-slate-200 hover:bg-slate-800/60;
+  }
+
+  /* Loading skeleton */
+  .skeleton {
+    @apply bg-slate-800/50 rounded animate-pulse;
+  }
+
+  /* Smooth form inputs */
+  .form-input {
+    @apply w-full px-4 py-3 bg-slate-800/90 text-slate-100 placeholder-slate-400 rounded-xl border border-slate-700 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 text-sm transition-all duration-200;
+  }
+
+  /* Success badge */
+  .badge-success {
+    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20;
+  }
+
+  /* Info badge */
+  .badge-info {
+    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-medium bg-cyan-500/10 text-cyan-400 border border-cyan-500/20;
+  }
+}
+
+@layer utilities {
+  /* Remove scrollbar for certain elements */
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Glassmorphism effect */
+  .glass {
+    @apply bg-white/10 backdrop-blur-md border border-white/20;
+  }
+
+  /* Gradient text */
+  .gradient-text {
+    @apply bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent;
+  }
+}
+
+/* Custom animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Tailwind animation declarations */
+@layer utilities {
+  .animate-fade-in {
+    animation: fade-in 0.5s ease-out;
+  }
+
+  .animate-slide-in-right {
+    animation: slide-in-right 0.5s ease-out;
+  }
+}

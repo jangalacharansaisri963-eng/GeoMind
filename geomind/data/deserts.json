@@ -1,0 +1,82 @@
+[
+  {
+    "id": "sahara",
+    "name": "Sahara Desert",
+    "type": "Subtropical / Hyper-arid",
+    "area_sq_km": 9200000,
+    "area_sq_miles": 3552000,
+    "countries": ["Algeria", "Chad", "Egypt", "Libya", "Mali", "Mauritania", "Morocco", "Niger", "Sudan", "Tunisia"],
+    "continent": "Africa",
+    "description": "The largest hot desert in the world and the third-largest desert overall, after Antarctica and the Arctic. Covers roughly 31% of the African continent with ergs (sand dune fields), hamadas (stone plateaus), and reg (gravel plains)."
+  },
+  {
+    "id": "arabian",
+    "name": "Arabian Desert",
+    "type": "Subtropical",
+    "area_sq_km": 2330000,
+    "area_sq_miles": 900000,
+    "countries": ["Saudi Arabia", "Yemen", "Oman", "United Arab Emirates", "Qatar", "Kuwait", "Jordan", "Iraq"],
+    "continent": "Asia",
+    "description": "A vast desert wilderness in Western Asia occupying almost the entire Arabian Peninsula. At its center is the Rub' al Khali ('Empty Quarter'), one of the largest continuous bodies of sand in the world."
+  },
+  {
+    "id": "gobi",
+    "name": "Gobi Desert",
+    "type": "Cold winter",
+    "area_sq_km": 1295000,
+    "area_sq_miles": 500000,
+    "countries": ["Mongolia", "China"],
+    "continent": "Asia",
+    "description": "A vast, cold desert region in Northern China and Southern Mongolia, bounded by the Altai Mountains and the grasslands of Mongolia to the north, and the Tibetan Plateau to the southwest. Noted for significant paleontological dinosaur fossil discoveries."
+  },
+  {
+    "id": "kalahari",
+    "name": "Kalahari Desert",
+    "type": "Semi-arid savanna basin",
+    "area_sq_km": 900000,
+    "area_sq_miles": 350000,
+    "countries": ["Botswana", "Namibia", "South Africa"],
+    "continent": "Africa",
+    "description": "A large semi-arid sandy savanna in Southern Africa, featuring red sand dunes and seasonal wetlands including the Okavango Delta, supporting diverse wildlife such as lions, meerkats, and antelopes."
+  },
+  {
+    "id": "patagonian",
+    "name": "Patagonian Desert",
+    "type": "Cold winter / Rain shadow",
+    "area_sq_km": 673000,
+    "area_sq_miles": 260000,
+    "countries": ["Argentina", "Chile"],
+    "continent": "South America",
+    "description": "The largest desert in Argentina and the eighth-largest in the world, bounded by the Patagonian Andes to the west and the Atlantic Ocean to the east, caused by the rain shadow of the Andes."
+  },
+  {
+    "id": "great_victoria",
+    "name": "Great Victoria Desert",
+    "type": "Subtropical",
+    "area_sq_km": 348750,
+    "area_sq_miles": 134650,
+    "countries": ["Australia"],
+    "continent": "Oceania",
+    "description": "The largest desert in Australia, consisting of many small sandhills, grassland plains, areas with a closely packed surface of pebbles, and salt lakes across Western Australia and South Australia."
+  },
+  {
+    "id": "atacama",
+    "name": "Atacama Desert",
+    "type": "Hyper-arid coastal / Rain shadow",
+    "area_sq_km": 105000,
+    "area_sq_miles": 41000,
+    "countries": ["Chile", "Peru"],
+    "continent": "South America",
+    "description": "A desert plateau in South America west of the Andes, widely recognized as the driest non-polar desert in the world. Several weather stations in the Atacama have never received a drop of rain. Renowned for astronomical observatories due to crystal-clear skies."
+  },
+  {
+    "id": "antarctic_polar",
+    "name": "Antarctic Polar Desert",
+    "type": "Polar ice and rock",
+    "area_sq_km": 14200000,
+    "area_sq_miles": 5500000,
+    "countries": ["Antarctica"],
+    "continent": "Antarctica",
+    "description": "The largest desert on Earth, encompassing the entire Antarctic continent. Despite containing 70% of the planet's freshwater locked in ice, precipitation averages under 50 mm per year inland, classifying it as a polar desert."
+  }
+]

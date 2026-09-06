@@ -1,0 +1,102 @@
+[
+  {
+    "id": "delhi",
+    "name": "Delhi",
+    "country": "India",
+    "coords": {"latitude": 28.6139, "longitude": 77.2090},
+    "population": 33000000,
+    "is_capital": true,
+    "elevation_m": 216,
+    "description": "The capital territory of India, a massive metropolitan area in northern India featuring historic landmarks like the Red Fort and India Gate."
+  },
+  {
+    "id": "mumbai",
+    "name": "Mumbai",
+    "country": "India",
+    "coords": {"latitude": 19.0760, "longitude": 72.8777},
+    "population": 21000000,
+    "is_capital": false,
+    "elevation_m": 14,
+    "description": "India's largest city and commercial capital, located on the western coast on the Arabian Sea, home to Bollywood and the Gateway of India."
+  },
+  {
+    "id": "tokyo",
+    "name": "Tokyo",
+    "country": "Japan",
+    "coords": {"latitude": 35.6762, "longitude": 139.6503},
+    "population": 37400000,
+    "is_capital": true,
+    "elevation_m": 40,
+    "description": "The capital of Japan and the world's most populous metropolitan agglomeration, blending futuristic technology with historic Shinto and Buddhist shrines."
+  },
+  {
+    "id": "london",
+    "name": "London",
+    "country": "United Kingdom",
+    "coords": {"latitude": 51.5074, "longitude": -0.1278},
+    "population": 9000000,
+    "is_capital": true,
+    "elevation_m": 35,
+    "description": "The capital of England and the United Kingdom, a global cultural, financial, and political capital situated along the River Thames."
+  },
+  {
+    "id": "paris",
+    "name": "Paris",
+    "country": "France",
+    "coords": {"latitude": 48.8566, "longitude": 2.3522},
+    "population": 11000000,
+    "is_capital": true,
+    "elevation_m": 35,
+    "description": "The capital and largest city of France, situated along the Seine River, internationally famous for art, fashion, gastronomy, and the Eiffel Tower."
+  },
+  {
+    "id": "new_york",
+    "name": "New York City",
+    "country": "United States",
+    "coords": {"latitude": 40.7128, "longitude": -74.0060},
+    "population": 8800000,
+    "is_capital": false,
+    "elevation_m": 10,
+    "description": "The most populous city in the United States and a premier global center for finance, culture, diplomacy (UN headquarters), and media."
+  },
+  {
+    "id": "cairo",
+    "name": "Cairo",
+    "country": "Egypt",
+    "coords": {"latitude": 30.0444, "longitude": 31.2357},
+    "population": 21750000,
+    "is_capital": true,
+    "elevation_m": 23,
+    "description": "The capital of Egypt and the largest metropolitan area in the Arab world and Africa, located near the Nile Delta and Giza Pyramids."
+  },
+  {
+    "id": "beijing",
+    "name": "Beijing",
+    "country": "China",
+    "coords": {"latitude": 39.9042, "longitude": 116.4074},
+    "population": 21890000,
+    "is_capital": true,
+    "elevation_m": 43,
+    "description": "The capital of the People's Republic of China, a sprawling metropolis with over three millennia of recorded history, home to the Forbidden City."
+  },
+  {
+    "id": "sao_paulo",
+    "name": "São Paulo",
+    "country": "Brazil",
+    "coords": {"latitude": -23.5505, "longitude": -46.6333},
+    "population": 22400000,
+    "is_capital": false,
+    "elevation_m": 760,
+    "description": "The most populous city in Brazil, the Americas, and the Western and Southern Hemispheres, serving as South America's financial powerhouse."
+  },
+  {
+    "id": "sydney",
+    "name": "Sydney",
+    "country": "Australia",
+    "coords": {"latitude": -33.8688, "longitude": 151.2093},
+    "population": 5300000,
+    "is_capital": false,
+    "elevation_m": 19,
+    "description": "The capital of New South Wales and the most populous city in Australia, famous for the Sydney Opera House and Sydney Harbour Bridge."
+  }
+]

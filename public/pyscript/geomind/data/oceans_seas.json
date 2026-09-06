@@ -1,0 +1,80 @@
+[
+  {
+    "id": "pacific",
+    "name": "Pacific Ocean",
+    "area_sq_km": 165250000,
+    "area_percentage_earth": 32.0,
+    "average_depth_m": 4280,
+    "deepest_point": "Challenger Deep, Mariana Trench (10,928 m)",
+    "bordering_continents": ["Asia", "Australia", "North America", "South America"],
+    "description": "The largest and deepest of Earth's oceanic divisions. It extends from the Arctic Ocean in the north to the Southern Ocean in the south. Contains the Ring of Fire with majority of active volcanic activity and earthquakes."
+  },
+  {
+    "id": "atlantic",
+    "name": "Atlantic Ocean",
+    "area_sq_km": 106460000,
+    "area_percentage_earth": 20.0,
+    "average_depth_m": 3646,
+    "deepest_point": "Milwaukee Deep, Puerto Rico Trench (8,376 m)",
+    "bordering_continents": ["Europe", "Africa", "North America", "South America"],
+    "description": "The second-largest of the world's oceans, separating the 'Old World' of Africa and Eurasia from the 'New World' of the Americas. Traversed by the Mid-Atlantic Ridge."
+  },
+  {
+    "id": "indian",
+    "name": "Indian Ocean",
+    "area_sq_km": 70560000,
+    "area_percentage_earth": 14.0,
+    "average_depth_m": 3741,
+    "deepest_point": "Java Trench (7,290 m)",
+    "bordering_continents": ["Asia", "Africa", "Australia"],
+    "description": "The third-largest oceanic division, bounded by Asia to the north, Africa to the west, and Australia to the east. Critical for maritime trade connecting the Middle East, Africa, and East Asia."
+  },
+  {
+    "id": "southern",
+    "name": "Southern Ocean",
+    "native_names": ["Antarctic Ocean"],
+    "area_sq_km": 20327000,
+    "area_percentage_earth": 4.0,
+    "average_depth_m": 3270,
+    "deepest_point": "Factorian Deep, South Sandwich Trench (7,434 m)",
+    "bordering_continents": ["Antarctica"],
+    "description": "Comprises the southernmost waters of the World Ocean, encircling Antarctica south of 60°S latitude. Characterized by the Antarctic Circumpolar Current."
+  },
+  {
+    "id": "arctic",
+    "name": "Arctic Ocean",
+    "area_sq_km": 14056000,
+    "area_percentage_earth": 2.8,
+    "average_depth_m": 1205,
+    "deepest_point": "Molloy Deep, Fram Strait (5,550 m)",
+    "bordering_continents": ["North America", "Europe", "Asia"],
+    "description": "The smallest and shallowest of the world's five major oceans, largely covered by sea ice year-round and surrounded by Eurasia and North America."
+  },
+  {
+    "id": "mediterranean",
+    "name": "Mediterranean Sea",
+    "area_sq_km": 2500000,
+    "average_depth_m": 1500,
+    "deepest_point": "Calypso Deep (5,267 m)",
+    "bordering_continents": ["Europe", "Africa", "Asia"],
+    "description": "An intercontinental sea connected to the Atlantic Ocean by the Strait of Gibraltar and to the Red Sea by the Suez Canal. Historical cradle of Western civilizations including Ancient Greece, Rome, and Phoenicia."
+  },
+  {
+    "id": "caribbean",
+    "name": "Caribbean Sea",
+    "area_sq_km": 2754000,
+    "average_depth_m": 2200,
+    "deepest_point": "Cayman Trough (7,686 m)",
+    "bordering_continents": ["North America", "South America"],
+    "description": "A suboceanic basin of the western Atlantic Ocean, bounded by Mexico and Central America to the west and southwest, the Greater Antilles to the north, and the Lesser Antilles to the east."
+  },
+  {
+    "id": "south_china_sea",
+    "name": "South China Sea",
+    "area_sq_km": 3500000,
+    "average_depth_m": 1212,
+    "deepest_point": "Manila Trench (5,377 m)",
+    "bordering_continents": ["Asia"],
+    "description": "A marginal sea of the western Pacific Ocean, bounded by southern China, Taiwan, the Philippines, Malaysia, and Vietnam. One of the world's most critical and contested commercial maritime shipping lanes."
+  }
+]

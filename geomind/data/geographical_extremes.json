@@ -1,0 +1,72 @@
+[
+  {
+    "record": "Highest Point on Earth",
+    "feature": "Mount Everest",
+    "value": "8,848.86 m (29,031.7 ft)",
+    "location": "Nepal / China (Himalayas)",
+    "description": "Earth's highest point above sea level, located in the Mahalangur Himal sub-range on the border of Nepal and the Tibet Autonomous Region of China."
+  },
+  {
+    "record": "Lowest Land Point on Earth",
+    "feature": "Dead Sea Depression",
+    "value": "-430.5 m (-1,412 ft) below sea level",
+    "location": "Jordan / Israel / West Bank",
+    "description": "The lowest dry land surface on Earth, on the shores of the hypersaline Dead Sea in the Jordan Rift Valley."
+  },
+  {
+    "record": "Deepest Oceanic Trench / Lowest Point on Earth's Crust",
+    "feature": "Challenger Deep, Mariana Trench",
+    "value": "10,928 m (35,853 ft) below sea level",
+    "location": "Western Pacific Ocean (near Guam)",
+    "description": "The deepest known point in the Earth's seabed hydrosphere, situated in the southern part of the Mariana Trench."
+  },
+  {
+    "record": "Driest Place on Earth (Non-Polar)",
+    "feature": "Atacama Desert",
+    "value": "Average annual rainfall under 1 mm; some sectors zero recorded rain",
+    "location": "Chile",
+    "description": "A rain-shadow coastal plateau in northern Chile, recognized globally as the driest non-polar region on Earth."
+  },
+  {
+    "record": "Driest and Coldest Continent",
+    "feature": "Antarctica",
+    "value": "Lowest natural temperature recorded: -89.2°C (-128.6°F) at Vostok Station",
+    "location": "South Pole",
+    "description": "The coldest, windiest, and driest continent, with an interior polar plateau classified as a desert due to minimal precipitation."
+  },
+  {
+    "record": "Highest Waterfall in the World",
+    "feature": "Angel Falls (Salto Ángel)",
+    "value": "979 m (3,212 ft) total height, 807 m uninterrupted drop",
+    "location": "Canaima National Park, Venezuela",
+    "description": "The world's highest uninterrupted waterfall, dropping over the edge of the Auyán-tepui mountain in the Gran Sabana region of Bolívar State."
+  },
+  {
+    "record": "Largest Freshwater Lake by Surface Area",
+    "feature": "Lake Superior",
+    "value": "82,103 km² (31,700 sq miles)",
+    "location": "United States / Canada",
+    "description": "The greatest expanse of freshwater by surface area on Earth, shared between Canada (Ontario) and the United States."
+  },
+  {
+    "record": "Deepest and Oldest Freshwater Lake",
+    "feature": "Lake Baikal",
+    "value": "1,642 m (5,387 ft) depth, ~25 million years old",
+    "location": "Siberia, Russia",
+    "description": "Contains approximately 23% of the world's fresh surface water—more than all the North American Great Lakes combined."
+  },
+  {
+    "record": "Longest River in the World",
+    "feature": "Nile River",
+    "value": "6,650 km (4,132 miles)",
+    "location": "Northeast Africa (Egypt, Sudan, Uganda, Ethiopia, etc.)",
+    "description": "Flows north into the Mediterranean Sea, widely regarded as the longest river on the globe."
+  },
+  {
+    "record": "Largest River by Water Discharge",
+    "feature": "Amazon River",
+    "value": "Average discharge ~209,000 m³/s (~20% of global river discharge)",
+    "location": "South America (Brazil, Peru, Colombia)",
+    "description": "Carries more water than the next seven largest rivers combined and has the largest drainage basin in the world."
+  }
+]

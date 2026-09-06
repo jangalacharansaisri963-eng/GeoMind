@@ -1,0 +1,216 @@
+name: GeoMind CI/CD Pipeline
+
+# Unified workflow that handles:
+#   1. Test suite on every push (validate Python engine integrity)
+#   2. Build frontend + deploy to Pages on pushes to main
+#   3. Optional: Retrain the GeoMind-1 checkpoint on demand or weekly schedule
+#   4. Optional: Smoke-test Playwright web research fallback
+#
+# Triggers:
+#   - push (any branch): Run Python tests, build frontend, deploy if on main
+#   - schedule (Sundays 06:00 UTC): Run full training cycle + research checks
+#   - workflow_dispatch: Manual trigger with optional epoch/learning_rate params
+
+on:
+  push:
+    branches: ["main", "dev", "staging"]
+  schedule:
+    - cron: "0 6 * * 0"  # Weekly: Sundays 06:00 UTC
+  workflow_dispatch:
+    inputs:
+      retrain:
+        description: "Retrain checkpoint?"
+        required: false
+        default: "false"
+      epochs:
+        description: "Training epochs"
+        required: false
+        default: "10"
+      lr:
+        description: "Learning rate"
+        required: false
+        default: "0.02"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: ci-cd-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PYTHON_VERSION: "3.11"
+  NODE_VERSION: "20"
+  CACHE_VERSION: "1"
+
+jobs:
+  # ============================================================================
+  # STAGE 1: Test Python engine (all branches)
+  # ============================================================================
+  test-python:
+    name: Test Python Engine
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+
+      - name: Install GeoMind (test extras)
+        run: |
+          python -m pip install --upgrade pip setuptools
+          pip install -e ".[test]"
+
+      - name: Run test suite
+        run: python -m unittest discover -s tests -v
+        timeout-minutes: 10
+
+  # ============================================================================
+  # STAGE 2: Build frontend (all branches)
+  # ============================================================================
+  build-frontend:
+    name: Build Frontend (Vite)
+    runs-on: ubuntu-latest
+    needs: test-python
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+
+      - name: Cache node_modules
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}-${{ env.CACHE_VERSION }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
+
+      - name: Install frontend dependencies
+        run: npm ci
+
+      - name: Build static site
+        env:
+          NODE_ENV: production
+          # For GitHub Pages project sites (https://<user>.github.io/<repo>/)
+          VITE_BASE_PATH: "/${{ github.event.repository.name }}/"
+        run: npm run build
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: dist
+          path: dist
+          retention-days: 1
+
+  # ============================================================================
+  # STAGE 3: Deploy to Pages (only on main branch)
+  # ============================================================================
+  deploy-pages:
+    name: Deploy to GitHub Pages
+    needs: build-frontend
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: dist
+          path: dist
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  # ============================================================================
+  # STAGE 4: Retrain (weekly schedule or manual dispatch with retrain=true)
+  # ============================================================================
+  retrain:
+    name: Retrain & Research Check
+    runs-on: ubuntu-latest
+    if: |
+      github.event_name == 'schedule' ||
+      (github.event_name == 'workflow_dispatch' && github.event.inputs.retrain == 'true')
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+
+      - name: Install GeoMind (with research extras)
+        run: |
+          python -m pip install --upgrade pip setuptools
+          pip install -e ".[test,research]"
+
+      - name: Install Playwright (with browser binaries)
+        run: |
+          python -m playwright install --with-deps chromium
+        continue-on-error: true  # Non-critical if browser install fails
+
+      - name: Run test suite (pre-training validation)
+        run: python -m unittest discover -s tests -v
+        timeout-minutes: 10
+
+      - name: Retrain GeoMind-1
+        env:
+          EPOCHS: ${{ github.event.inputs.epochs || '10' }}
+          LR: ${{ github.event.inputs.lr || '0.02' }}
+        run: python scripts/retrain.py --epochs $EPOCHS --lr $LR
+
+      - name: Web research smoke test (Playwright)
+        run: python scripts/research_check.py "capital of Kenya"
+        continue-on-error: true  # Non-critical if network/Playwright unavailable
+
+      - name: Commit updated checkpoint (if changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- geomind/data/geomind_weights.json; then
+            git add geomind/data/geomind_weights.json
+            git commit -m "chore: retrain GeoMind-1 checkpoint [skip ci]"
+            git push
+            echo "✅ Checkpoint committed and pushed."
+          else
+            echo "ℹ️ No checkpoint changes to commit."
+          fi
+
+  # ============================================================================
+  # Summary & Status
+  # ============================================================================
+  summary:
+    name: Workflow Summary
+    runs-on: ubuntu-latest
+    needs: [test-python, build-frontend]
+    if: always()
+    steps:
+      - name: Pipeline status
+        run: |
+          echo "🎯 GeoMind CI/CD Pipeline Summary"
+          echo "================================="
+          echo "✅ Tests: ${{ needs.test-python.result }}"
+          echo "✅ Build: ${{ needs.build-frontend.result }}"
+          echo "🚀 Status: ${{ job.status }}"

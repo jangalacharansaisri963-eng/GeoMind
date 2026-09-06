@@ -1,0 +1,111 @@
+[
+  {
+    "id": "alexander_the_great",
+    "name": "Alexander the Great",
+    "lifespan": "356 BC – 323 BC",
+    "title": "King of Macedonia, Hegemon of the Hellenic League, Pharaoh of Egypt, King of Persia",
+    "nationality": "Ancient Macedonian / Greek",
+    "key_achievements": [
+      "Conquered the Achaemenid Persian Empire undefeated in battle",
+      "Founded more than twenty cities bearing his name, most notably Alexandria in Egypt",
+      "Initiated the Hellenistic period, blending Greek, Persian, Egyptian, and Indian cultures"
+    ],
+    "description": "One of history's most successful military commanders, tutored by Aristotle, whose conquests stretched from Greece to northwestern India by the age of thirty."
+  },
+  {
+    "id": "julius_caesar",
+    "name": "Julius Caesar",
+    "lifespan": "100 BC – 44 BC",
+    "title": "Dictator of the Roman Republic, General, Statesman",
+    "nationality": "Roman",
+    "key_achievements": [
+      "Conquest of Gaul, extending the Roman world to the Atlantic Ocean",
+      "Crossed the Rubicon, initiating civil war and defeating Pompey",
+      "Instituted the Julian calendar, land redistribution, and reformed Roman government",
+      "Assassinated on the Ides of March (44 BC), precipitating the end of the Roman Republic"
+    ],
+    "description": "A Roman general and statesman whose political and military achievements played a critical role in the demise of the Roman Republic and the rise of the Roman Empire."
+  },
+  {
+    "id": "leonardo_da_vinci",
+    "name": "Leonardo da Vinci",
+    "lifespan": "1452–1519",
+    "title": "Renaissance Polymath, Painter, Scientist, Inventor",
+    "nationality": "Florentine / Italian",
+    "key_achievements": [
+      "Painted iconic masterworks including the Mona Lisa and The Last Supper",
+      "Pioneered anatomical research through precise physiological drawings",
+      "Conceptualized inventions centuries ahead of his era: helicopters, armored vehicles, automated calculators"
+    ],
+    "description": "The archetypal Renaissance polymath whose boundless curiosity and unquenchable inventive imagination embodied the humanistic renaissance ideal."
+  },
+  {
+    "id": "napoleon_bonaparte",
+    "name": "Napoleon Bonaparte",
+    "lifespan": "1769–1821",
+    "title": "Emperor of the French, Military Commander",
+    "nationality": "French (Corsican)",
+    "key_achievements": [
+      "Rose through French revolutionary ranks to seize power in the Coup of 18 Brumaire (1799)",
+      "Conquered much of continental Europe during the Napoleonic Wars",
+      "Promulgated the Napoleonic Code (Code Civil), which forms the basis of civil law systems worldwide",
+      "Reformed French administrative, educational, and legal institutions"
+    ],
+    "description": "A brilliant French military and political leader whose legal and administrative reforms fundamentally shaped modern Western institutions, despite his eventual defeat at Waterloo."
+  },
+  {
+    "id": "abraham_lincoln",
+    "name": "Abraham Lincoln",
+    "lifespan": "1809–1865",
+    "title": "16th President of the United States",
+    "nationality": "American",
+    "key_achievements": [
+      "Preserved the Union through the American Civil War",
+      "Issued the Emancipation Proclamation (1863), freeing enslaved people in Confederate territories",
+      "Delivered the Gettysburg Address, championing government 'of the people, by the people, for the people'",
+      "Championed the passage of the Thirteenth Amendment abolishing slavery across the United States"
+    ],
+    "description": "An American statesman and lawyer who successfully steered the nation through its greatest moral, constitutional, and political crisis, ending the institution of chattel slavery in America."
+  },
+  {
+    "id": "mahatma_gandhi",
+    "name": "Mahatma Gandhi",
+    "lifespan": "1869–1948",
+    "title": "Father of the Nation of India, Leader of Indian Independence Movement",
+    "nationality": "Indian",
+    "key_achievements": [
+      "Developed the philosophy of Satyagraha (nonviolent resistance and truth-force)",
+      "Led nationwide campaigns: Non-Cooperation Movement (1920), Salt March / Dandi March (1930), Quit India Movement (1942)",
+      "Guided India to independence from British colonial rule in 1947",
+      "Inspired global civil rights movements led by Martin Luther King Jr., Nelson Mandela, and the Dalai Lama"
+    ],
+    "description": "An Indian lawyer, anti-colonial nationalist, and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence from British rule."
+  },
+  {
+    "id": "nelson_mandela",
+    "name": "Nelson Mandela",
+    "lifespan": "1918–2013",
+    "title": "First President of Democratic South Africa, Anti-Apartheid Leader",
+    "nationality": "South African",
+    "key_achievements": [
+      "Led the African National Congress (ANC) struggle against racial apartheid",
+      "Incarcerated for 27 years, primarily on Robben Island, becoming a global symbol of resistance",
+      "Awarded the Nobel Peace Prize in 1993 alongside F.W. de Klerk",
+      "Elected South Africa's first Black head of state in fully representative democratic elections (1994)"
+    ],
+    "description": "A South African anti-apartheid revolutionary, political leader, and philanthropist who presided over the peaceful dismantling of apartheid and fostered national reconciliation."
+  },
+  {
+    "id": "marie_curie",
+    "name": "Marie Curie",
+    "lifespan": "1867–1934",
+    "title": "Physicist and Chemist, Pioneer in Radioactivity",
+    "nationality": "Polish-French",
+    "key_achievements": [
+      "Discovered the chemical elements polonium and radium",
+      "Coined the term 'radioactivity' and developed mobile radiography units for World War I field hospitals",
+      "First woman to win a Nobel Prize, first person to win two Nobel Prizes, and only person to win Nobel Prizes in two different scientific fields (Physics 1903, Chemistry 1911)"
+    ],
+    "description": "A pioneering Polish and naturalized-French physicist and chemist who conducted groundbreaking research on radioactivity, fundamentally shaping modern nuclear physics and oncology."
+  }
+]

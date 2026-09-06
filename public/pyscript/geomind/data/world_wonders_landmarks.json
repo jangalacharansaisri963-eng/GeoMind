@@ -1,0 +1,93 @@
+[
+  {
+    "id": "pyramids_giza",
+    "name": "Great Pyramid of Giza",
+    "native_names": ["Pyramid of Khufu"],
+    "category": "Ancient Wonder of the World",
+    "location": "Giza Plateau, Greater Cairo",
+    "country": "Egypt",
+    "continent": "Africa",
+    "built_era": "c. 2560 BC (Old Kingdom of Egypt, 4th Dynasty)",
+    "builder": "Pharaoh Khufu (Cheops)",
+    "description": "The oldest and largest of the pyramids in the Giza pyramid complex, and the only one of the Seven Wonders of the Ancient World largely remaining intact. Stood as the tallest human-made structure in the world for over 3,800 years."
+  },
+  {
+    "id": "great_wall_china",
+    "name": "Great Wall of China",
+    "native_names": ["Wànlǐ Chángchéng"],
+    "category": "New 7 Wonder of the World",
+    "location": "Northern China",
+    "country": "China",
+    "continent": "Asia",
+    "built_era": "7th century BC – 17th century AD (notably Qin and Ming Dynasties)",
+    "length_km": 21196,
+    "description": "A series of fortifications built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups. Stretches over 21,000 kilometers."
+  },
+  {
+    "id": "taj_mahal",
+    "name": "Taj Mahal",
+    "native_names": ["Tāj Mahal"],
+    "category": "New 7 Wonder of the World",
+    "location": "Agra, Uttar Pradesh",
+    "country": "India",
+    "continent": "Asia",
+    "built_era": "1631–1648 AD (Mughal Empire)",
+    "builder": "Mughal Emperor Shah Jahan (for wife Mumtaz Mahal)",
+    "description": "An ivory-white marble mausoleum on the southern bank of the river Yamuna in Agra. An architectural masterpiece combining Indian, Persian, and Islamic architectural traditions, recognized as a UNESCO World Heritage Site."
+  },
+  {
+    "id": "colosseum",
+    "name": "Colosseum",
+    "native_names": ["Amphitheatrum Flavium"],
+    "category": "New 7 Wonder of the World",
+    "location": "Rome",
+    "country": "Italy",
+    "continent": "Europe",
+    "built_era": "70–80 AD (Flavian Dynasty, under Vespasian and Titus)",
+    "capacity": "50,000–80,000 spectators",
+    "description": "The largest ancient amphitheatre ever built, situated in the centre of the city of Rome. Used for gladiatorial contests, public spectacles, animal hunts, executions, and re-enactments of famous battles."
+  },
+  {
+    "id": "machu_picchu",
+    "name": "Machu Picchu",
+    "native_names": ["Machu Pikchu"],
+    "category": "New 7 Wonder of the World",
+    "location": "Cusco Region, Urubamba Province",
+    "country": "Peru",
+    "continent": "South America",
+    "built_era": "c. 1450 AD (Inca Empire)",
+    "elevation_m": 2430,
+    "description": "A 15th-century Inca citadel situated on a mountain ridge above the Sacred Valley in Peru. Often referred to as the 'Lost City of the Incas', showcasing extraordinary polished dry-stone masonry."
+  },
+  {
+    "id": "petra",
+    "name": "Petra",
+    "native_names": ["Raqmu"],
+    "category": "New 7 Wonder of the World",
+    "location": "Ma'an Governorate",
+    "country": "Jordan",
+    "continent": "Asia",
+    "built_era": "c. 5th century BC – 1st century AD (Nabataean Kingdom)",
+    "description": "A historic and archaeological city in southern Jordan famous for its rock-cut architecture and innovative water conduit system. Often called the 'Rose City' because of the color of the sandstone from which it is carved."
+  },
+  {
+    "id": "angkor_wat",
+    "name": "Angkor Wat",
+    "category": "World Cultural Landmark",
+    "location": "Siem Reap",
+    "country": "Cambodia",
+    "continent": "Asia",
+    "built_era": "Early 12th century (Khmer Empire, under King Suryavarman II)",
+    "description": "The largest religious monument in the world by land area (162.6 hectares), originally constructed as a Hindu temple dedicated to Vishnu for the Khmer Empire, before transforming into a Buddhist temple towards the end of the 12th century."
+  },
+  {
+    "id": "acropolis_athens",
+    "name": "Acropolis of Athens",
+    "category": "Classical Historical Landmark",
+    "location": "Athens",
+    "country": "Greece",
+    "continent": "Europe",
+    "built_era": "5th century BC (Periclean Golden Age)",
+    "description": "An ancient citadel located on a rocky outcrop above the city of Athens, containing the remains of several ancient buildings of great architectural and historical significance, the most famous being the Parthenon."
+  }
+]
