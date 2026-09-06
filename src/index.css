@@ -1,5 +1,30 @@
 @import "tailwindcss";
 
+@theme {
+  --animate-fade-in: fade-in 0.5s ease-out;
+  --animate-slide-in-right: slide-in-right 0.5s ease-out;
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slide-in-right {
+    from {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
+
 @layer base {
   * {
     @apply scroll-smooth;
@@ -110,37 +135,5 @@
   /* Gradient text */
   .gradient-text {
     @apply bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent;
-  }
-}
-
-/* Custom animations */
-@keyframes fade-in {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes slide-in-right {
-  from {
-    opacity: 0;
-    transform: translateX(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-/* Tailwind animation declarations */
-@layer utilities {
-  .animate-fade-in {
-    animation: fade-in 0.5s ease-out;
-  }
-
-  .animate-slide-in-right {
-    animation: slide-in-right 0.5s ease-out;
   }
 }
