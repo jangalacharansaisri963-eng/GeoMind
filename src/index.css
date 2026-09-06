@@ -75,11 +75,11 @@
   }
 
   .message-user {
-    @apply message-card bg-emerald-600 text-slate-950 font-medium rounded-tr-none;
+    @apply rounded-2xl p-4 sm:p-5 shadow-md transition-all duration-300 hover:shadow-lg bg-emerald-600 text-slate-950 font-medium rounded-tr-none;
   }
 
   .message-assistant {
-    @apply message-card bg-slate-800/90 text-slate-100 border border-slate-700/70 rounded-tl-none;
+    @apply rounded-2xl p-4 sm:p-5 shadow-md transition-all duration-300 hover:shadow-lg bg-slate-800/90 text-slate-100 border border-slate-700/70 rounded-tl-none;
   }
 
   /* Tab transitions */
