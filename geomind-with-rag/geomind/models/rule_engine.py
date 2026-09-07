@@ -11,8 +11,25 @@ from geomind.knowledge.history import HistoryKnowledgeSource
 from geomind.knowledge.social_studies import SocialStudiesKnowledgeSource
 from geomind.knowledge.comparison import ComparisonEngine
 from geomind.knowledge.web_research import WebResearchEngine
-from geomind.knowledge.rag import RagEngine, get_rag_engine
 from geomind.models.base import ModelProvider
+
+# RAG is optional — must not break the whole engine under Pyodide/PyScript
+# if the module is missing from the file map or fails to load.
+try:
+    from geomind.knowledge.rag import RagEngine, get_rag_engine
+    _RAG_AVAILABLE = True
+except Exception:
+    _RAG_AVAILABLE = False
+    def get_rag_engine(*args, **kwargs):
+        class _Dummy:
+            def is_available(self):
+                return False
+            def query(self, q):
+                return None
+            def status(self):
+                return {"enabled": False, "ready": False, "error": "RAG module not loaded"}
+        return _Dummy()
+
 
 
 GREETING_RESPONSES = [
@@ -40,7 +57,17 @@ class RuleEngine(ModelProvider):
         self.social_source = SocialStudiesKnowledgeSource()
         self.compare_source = ComparisonEngine()
         self.web_research = WebResearchEngine()
-        self.rag = get_rag_engine()
+        try:
+            self.rag = get_rag_engine()
+        except Exception:
+            class _DummyRag:
+                def is_available(self):
+                    return False
+                def query(self, q):
+                    return None
+                def status(self):
+                    return {"enabled": False, "ready": False, "error": "RAG init failed"}
+            self.rag = _DummyRag()
 
     @property
     def name(self) -> str:

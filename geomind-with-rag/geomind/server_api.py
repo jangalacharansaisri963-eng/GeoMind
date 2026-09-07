@@ -14,7 +14,14 @@ from geomind.core.agent import GeoMind
 from geomind.models.geomind_model import GeoMindModel
 from geomind.models.dataset import GeoMindDataset
 from geomind.knowledge.web_research import WebResearchEngine
-from geomind.knowledge.rag import get_rag_engine
+try:
+    from geomind.knowledge.rag import get_rag_engine
+except Exception:
+    def get_rag_engine(*a, **k):
+        class _D:
+            def status(self):
+                return {"enabled": False, "ready": False, "error": "RAG not available in this environment"}
+        return _D()
 
 
 def _web_research_status() -> Dict[str, Any]:

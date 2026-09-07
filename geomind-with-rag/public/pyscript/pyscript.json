@@ -43,6 +43,8 @@
     "./geomind/core/nlp.py": "./geomind/core/nlp.py",
     "./geomind/core/agent.py": "./geomind/core/agent.py",
     "./geomind/core/types.py": "./geomind/core/types.py",
-    "./geomind/core/session.py": "./geomind/core/session.py"
+    "./geomind/core/session.py": "./geomind/core/session.py",
+    "./geomind/knowledge/rag.py": "./geomind/knowledge/rag.py",
+    "./geomind/knowledge/rag_config.py": "./geomind/knowledge/rag_config.py"
   }
 }
