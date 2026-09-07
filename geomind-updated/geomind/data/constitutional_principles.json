@@ -1,0 +1,50 @@
+[
+  {
+    "id": "separation_of_powers",
+    "name": "Separation of Powers",
+    "theorist": "Montesquieu (The Spirit of the Laws, 1748)",
+    "definition": "An organizational principle of constitutional governance dividing state authority into three distinct branches—legislative, executive, and judicial—to prevent the concentration and abuse of power.",
+    "mechanisms": [
+      "Legislative Branch: Enacts and debates statutory laws",
+      "Executive Branch: Implements, administers, and enforces laws",
+      "Judicial Branch: Interprets laws and arbitrates legal disputes according to constitutional standards"
+    ],
+    "purpose": "Prevents autocratic concentration of power by ensuring each branch functions with institutional autonomy while checking the others."
+  },
+  {
+    "id": "rule_of_law",
+    "name": "Rule of Law",
+    "definition": "A fundamental legal principle whereby all individuals, institutions, and entities—public and private, including the state itself—are accountable to laws that are publicly promulgated, equally enforced, and independently adjudicated.",
+    "core_tenets": [
+      "Supremacy of statutory and constitutional law over arbitrary administrative fiat",
+      "Equality before the law without privilege or discrimination",
+      "Predictability, stability, and transparency of legal procedures",
+      "Access to an independent and impartial judiciary"
+    ],
+    "purpose": "Safeguards against tyranny and arbitrary authoritarian exercise of government power."
+  },
+  {
+    "id": "judicial_review",
+    "name": "Judicial Review",
+    "origin": "Marbury v. Madison (1803, Chief Justice John Marshall)",
+    "definition": "The power of a court to adjudicate the constitutionality of legislative statutes, executive actions, or administrative rules, invalidating those that conflict with a higher constitutional norm.",
+    "core_tenets": [
+      "The Constitution is the supreme law of the land",
+      "The judiciary has the duty to interpret what the law is",
+      "Statutes repugnant to the Constitution are null and void"
+    ],
+    "purpose": "Serves as the ultimate institutional check by the judiciary against legislative overreach and executive transgressions."
+  },
+  {
+    "id": "habeas_corpus",
+    "name": "Habeas Corpus",
+    "etymology": "Latin: 'that you have the body'",
+    "definition": "A foundational common-law procedural writ safeguarding individual freedom against unlawful and indefinite state detention.",
+    "core_tenets": [
+      "Demands that a detained individual be brought before a court of law",
+      "Requires the custodian to demonstrate valid legal authority and statutory cause for detention",
+      "Mandates immediate release if detention is found unlawful or arbitrary"
+    ],
+    "purpose": "Considered the bedrock procedural guarantee against unlawful imprisonment and executive detention without trial."
+  }
+]

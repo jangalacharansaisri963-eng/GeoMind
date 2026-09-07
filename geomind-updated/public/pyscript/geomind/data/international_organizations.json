@@ -1,0 +1,52 @@
+[
+  {
+    "id": "united_nations",
+    "name": "United Nations (UN)",
+    "founded": "24 October 1945 (San Francisco, United States)",
+    "headquarters": "New York City, United States",
+    "member_states": 193,
+    "principal_organs": [
+      "UN General Assembly",
+      "UN Security Council (5 Permanent members: US, UK, France, Russia, China with veto power)",
+      "Economic and Social Council (ECOSOC)",
+      "International Court of Justice (The Hague)",
+      "UN Secretariat"
+    ],
+    "mission": "Maintaining international peace and security, developing friendly relations among nations, achieving international cooperation, and harmonizing actions of nations.",
+    "description": "The world's largest, most familiar, and most internationally represented intergovernmental organization, established following World War II to prevent future global conflict."
+  },
+  {
+    "id": "european_union",
+    "name": "European Union (EU)",
+    "founded": "1 November 1993 (Maastricht Treaty; roots in 1957 Treaty of Rome)",
+    "headquarters": "Brussels, Belgium (Executive/Council), Strasbourg, France (Parliament)",
+    "member_states": 27,
+    "core_pillars": [
+      "Single internal market with four freedoms: free movement of goods, capital, services, and people",
+      "Common currency (Euro €) administered by the European Central Bank across 20 Eurozone countries",
+      "Schengen Area passport-free travel zone",
+      "Common foreign, security, and environmental policies"
+    ],
+    "description": "A unique political and economic union of 27 European member states that operate an internal single market through a standardized system of laws applied in all member states."
+  },
+  {
+    "id": "nato",
+    "name": "North Atlantic Treaty Organization (NATO)",
+    "founded": "4 April 1949 (Washington, D.C., United States)",
+    "headquarters": "Brussels, Belgium",
+    "member_states": 32,
+    "core_principle": "Collective Defense under Article 5: An attack against one member ally is considered an attack against all member allies.",
+    "mission": "Guaranteeing the freedom and security of its members through political and military means, initially formed as a deterrent against Soviet expansion in post-war Europe.",
+    "description": "An intergovernmental military alliance between 30 European and 2 North American countries committed to collective defense and transatlantic security cooperation."
+  },
+  {
+    "id": "asean",
+    "name": "Association of Southeast Asian Nations (ASEAN)",
+    "founded": "8 August 1967 (Bangkok Declaration)",
+    "secretariat": "Jakarta, Indonesia",
+    "member_states": 10,
+    "members": ["Indonesia", "Malaysia", "Philippines", "Singapore", "Thailand", "Brunei", "Vietnam", "Laos", "Myanmar", "Cambodia"],
+    "mission": "Accelerating economic growth, social progress, and cultural development in the region, promoting regional peace and stability through respect for justice and the rule of law.",
+    "description": "A prominent regional grouping in Southeast Asia that promotes economic, political, and security cooperation among its ten member countries."
+  }
+]

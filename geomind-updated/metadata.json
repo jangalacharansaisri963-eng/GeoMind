@@ -1,0 +1,6 @@
+{
+  "name": "GeoMind",
+  "description": "A Python-based AI focused on Geography, History, and Social Studies with an interactive CLI and extensible reasoning engine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

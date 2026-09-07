@@ -1,0 +1,59 @@
+[
+  {
+    "id": "capitalism",
+    "name": "Capitalism",
+    "definition": "An economic system based on the private ownership of the means of production and their operation for profit.",
+    "core_tenets": [
+      "Private property rights and freedom of enterprise",
+      "Capital accumulation and competitive markets",
+      "Price discovery determined by supply and demand without mandatory central planning",
+      "Voluntary exchange and wage labor"
+    ],
+    "key_thinkers": ["Adam Smith ('Wealth of Nations')", "David Ricardo", "Milton Friedman", "Friedrich Hayek"],
+    "advantages": ["High economic efficiency, rapid innovation, consumer sovereignty, dynamic capital allocation"],
+    "critiques": ["Tendency toward wealth inequality, environmental externalities, business cycle volatility, underprovision of public goods"],
+    "description": "The predominant global economic model characterized by decentralized market mechanisms, private asset stewardship, and competitive pricing incentives."
+  },
+  {
+    "id": "socialism",
+    "name": "Socialism",
+    "definition": "An economic and political system characterized by social ownership of the means of production, cooperative management of the economy, and distribution based on human need rather than private profit.",
+    "core_tenets": [
+      "Social or collective ownership of key productive assets (state, cooperative, or municipal)",
+      "Production oriented directly towards use value and societal welfare rather than capital accumulation",
+      "Robust public provision of healthcare, education, housing, and social security",
+      "Reduction or elimination of economic class disparities"
+    ],
+    "key_thinkers": ["Karl Marx", "Friedrich Engels", "Robert Owen", "Eduard Bernstein"],
+    "varieties": ["Democratic Socialism", "Social Democracy (Nordic Model)", "Market Socialism", "Centrally Planned State Socialism"],
+    "advantages": ["Reduced income disparity, universal access to basic necessities, collective worker empowerment, prioritization of public welfare"],
+    "critiques": ["Risk of bureaucratic inefficiencies, potential reduction in entrepreneurial risk incentives, misallocation in rigid central planning"],
+    "description": "A socio-economic philosophy advocating that the resources, tools, and infrastructure of a society should belong to the community as a whole to foster equity and social justice."
+  },
+  {
+    "id": "mixed_economy",
+    "name": "Mixed Economy",
+    "definition": "An economic system blending elements of private capitalism with state intervention, regulation, and social welfare provision.",
+    "core_tenets": [
+      "Coexistence of private enterprise and public sector institutions",
+      "Market forces govern consumer goods, while government provides public infrastructure, education, defense, and healthcare",
+      "Fiscal and monetary policy utilized by the state to moderate economic recessions and inflation",
+      "Regulatory protections for labor, consumers, and the environment"
+    ],
+    "prominent_examples": ["United States", "United Kingdom", "Germany", "India", "France", "Japan", "Brazil"],
+    "description": "The most widely implemented economic model in the modern world, striving to harness market efficiency while preventing market failures through targeted governmental stewardship."
+  },
+  {
+    "id": "mercantilism",
+    "name": "Mercantilism",
+    "period": "16th – 18th century",
+    "definition": "An economic policy designed to maximize the exports and minimize the imports for an economy, accumulating monetary reserves through a positive balance of trade, particularly of bullion (gold and silver).",
+    "core_tenets": [
+      "Belief that global wealth is zero-sum, requiring fierce interstate rivalry for trade dominance",
+      "High protective tariffs on imported manufactured goods to defend domestic industries",
+      "Acquisition of foreign colonial territories as sources of raw materials and exclusive export markets",
+      "State-granted monopolies on colonial maritime trade (e.g., British East India Company, Dutch VOC)"
+    ],
+    "description": "The prevailing economic orthodoxy of early modern Europe that stimulated colonial expansion and naval militarism, before being superseded by classical free-market economics."
+  }
+]

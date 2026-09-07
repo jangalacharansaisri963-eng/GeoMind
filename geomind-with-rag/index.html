@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GeoMind</title>
+    <meta name="description" content="A Python-based AI focused on Geography, History, and Social Studies with an interactive CLI and extensible reasoning engine." />
+    <meta property="og:title" content="GeoMind" />
+    <meta property="og:description" content="A Python-based AI focused on Geography, History, and Social Studies with an interactive CLI and extensible reasoning engine." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!--
+      PyScript runs GeoMind's actual Python engine (geomind/) directly in the
+      browser via Pyodide (WebAssembly). This is what lets the frontend keep
+      working with zero backend when deployed as a static site (GitHub
+      Pages), where there is no Node/Express server available to spawn a
+      `python3` subprocess. See public/pyscript/bridge.py and
+      src/lib/geomindPyBridge.ts. App.tsx tries the Node backend's /api/*
+      routes first (used by `npm run dev` / server.ts) and falls back to this
+      in-browser engine automatically if those aren't reachable.
+
+      Version pinned to a recent PyScript release as of authoring; check
+      https://pyscript.net/releases/ for newer ones periodically.
+    -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script type="py" src="./pyscript/bridge.py" config="./pyscript/pyscript.json"></script>
+  </body>
+</html>
+

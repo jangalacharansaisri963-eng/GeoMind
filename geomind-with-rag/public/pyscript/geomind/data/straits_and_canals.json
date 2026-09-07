@@ -1,0 +1,59 @@
+[
+  {
+    "id": "suez_canal",
+    "name": "Suez Canal",
+    "type": "Artificial sea-level waterway",
+    "location": "Isthmus of Suez, Egypt",
+    "connects": ["Mediterranean Sea", "Red Sea"],
+    "length_km": 193.3,
+    "opened": "17 November 1869",
+    "description": "An artificial sea-level waterway in Egypt connecting the Mediterranean Sea to the Red Sea through the Isthmus of Suez, providing the shortest maritime route between Europe and the lands around the Indian and western Pacific oceans."
+  },
+  {
+    "id": "panama_canal",
+    "name": "Panama Canal",
+    "type": "Lock-based artificial waterway",
+    "location": "Isthmus of Panama, Panama",
+    "connects": ["Atlantic Ocean", "Pacific Ocean"],
+    "length_km": 82,
+    "opened": "15 August 1914",
+    "description": "An artificial 82 km waterway in Panama that connects the Atlantic Ocean with the Pacific Ocean, cutting across the Isthmus of Panama and drastically reducing maritime voyage duration around Cape Horn."
+  },
+  {
+    "id": "strait_of_gibraltar",
+    "name": "Strait of Gibraltar",
+    "type": "Natural maritime strait",
+    "narrowest_width_km": 14.3,
+    "connects": ["Atlantic Ocean", "Mediterranean Sea"],
+    "separates": ["Europe (Spain / Gibraltar)", "Africa (Morocco)"],
+    "description": "A narrow strait that connects the Atlantic Ocean to the Mediterranean Sea and separates the Iberian Peninsula in Europe from Morocco in Africa. Guarded historically by the Pillars of Hercules."
+  },
+  {
+    "id": "strait_of_malacca",
+    "name": "Strait of Malacca",
+    "type": "Natural maritime strait",
+    "length_km": 930,
+    "connects": ["Indian Ocean (Andaman Sea)", "Pacific Ocean (South China Sea)"],
+    "bordering_states": ["Indonesia", "Malaysia", "Singapore"],
+    "description": "A narrow stretch of water between the Malay Peninsula and the Indonesian island of Sumatra. As the main shipping channel between the Indian and Pacific Oceans, it is one of the most important maritime shipping lanes in the world."
+  },
+  {
+    "id": "bosporus",
+    "name": "Bosporus Strait",
+    "native_names": ["Istanbul Strait"],
+    "type": "Natural continental boundary strait",
+    "length_km": 31,
+    "connects": ["Black Sea", "Sea of Marmara"],
+    "location": "Istanbul, Turkey",
+    "description": "A narrow, natural strait and an internationally significant waterway in northwestern Turkey that forms part of the continental boundary between Europe and Asia, dividing Istanbul into European and Asian sectors."
+  },
+  {
+    "id": "bering_strait",
+    "name": "Bering Strait",
+    "type": "Natural maritime strait",
+    "narrowest_width_km": 82,
+    "connects": ["Arctic Ocean (Chukchi Sea)", "Pacific Ocean (Bering Sea)"],
+    "separates": ["Asia (Chukotka Peninsula, Russia)", "North America (Seward Peninsula, Alaska, USA)"],
+    "description": "A strait between the Pacific and Arctic oceans, separating the Chukchi Peninsula of the Russian Far East from the Seward Peninsula of Alaska. Site of the prehistoric Beringia land bridge facilitating human migration to the Americas."
+  }
+]

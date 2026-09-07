@@ -1,0 +1,64 @@
+[
+  {
+    "id": "mesopotamia",
+    "name": "Ancient Mesopotamia",
+    "period": "c. 5000 BC – 539 BC",
+    "region": "Tigris-Euphrates River System (Modern Iraq, Kuwait, Syria, Turkey)",
+    "major_civilizations": ["Sumer", "Akkad", "Babylonia", "Assyria"],
+    "key_innovations": ["Cuneiform writing", "The wheel", "Code of Hammurabi", "Base-60 sexagesimal numerical system", "Irrigation agriculture"],
+    "description": "Widely known as the 'Cradle of Civilization', where the earliest complex urban settlements, monumental architecture, and codified laws first emerged."
+  },
+  {
+    "id": "ancient_egypt",
+    "name": "Ancient Egypt",
+    "period": "c. 3100 BC – 30 BC",
+    "region": "Nile River Valley (Northeastern Africa)",
+    "major_eras": ["Early Dynastic", "Old Kingdom (Pyramid Age)", "Middle Kingdom", "New Kingdom", "Ptolemaic Kingdom"],
+    "key_innovations": ["Hieroglyphic writing", "Monumental stone masonry (pyramids, temples)", "Papyrus", "Solar calendar", "Advanced embalming"],
+    "description": "One of the longest-lasting civilizations in human history, flourishing along the fertile banks of the Nile, unified under pharaohs and famous for monumental architecture, religion, and military prowess."
+  },
+  {
+    "id": "indus_valley",
+    "name": "Indus Valley Civilization (Harappan Civilization)",
+    "period": "c. 3300 BC – 1300 BC (Mature period: 2600–1900 BC)",
+    "region": "Indus River Basin (Modern Pakistan and Northwestern India)",
+    "major_sites": ["Mohenjo-daro", "Harappa", "Dholavira", "Lothal", "Kalibangan"],
+    "key_innovations": ["Standardized brick dimensions", "Sophisticated urban grid planning", "Underground drainage and sewage systems", "Standardized weights and measures"],
+    "description": "A Bronze Age civilization in South Asia renowned for its peaceful urbanism, advanced sanitation, maritime dockyards (Lothal), and undeciphered script."
+  },
+  {
+    "id": "classical_greece",
+    "name": "Classical Greece",
+    "period": "c. 510 BC – 323 BC",
+    "region": "Greek Peninsula, Aegean Islands, Ionia",
+    "major_city_states": ["Athens", "Sparta", "Thebes", "Corinth"],
+    "key_innovations": ["Athenian direct democracy", "Philosophy (Socrates, Plato, Aristotle)", "Dramatic theatre (Tragedy & Comedy)", "Historiography (Herodotus, Thucydides)", "Classical architectural orders"],
+    "description": "A transformative era of intellectual and political flourishing that laid the foundational pillars of Western philosophy, political theory, scientific inquiry, and the arts."
+  },
+  {
+    "id": "roman_empire",
+    "name": "Roman Empire",
+    "period": "27 BC – 476 AD (Western Empire); until 1453 AD (Eastern Byzantine Empire)",
+    "region": "Mediterranean Basin, Southern/Western Europe, North Africa, Levant",
+    "capital": "Rome (later Ravenna, Constantinople)",
+    "key_innovations": ["Roman law and jurisprudence", "Aqueducts and hydraulic concrete", "Extensive paved road networks", "Arches and vaulted domes (Pantheon)", "Civil administration"],
+    "description": "The post-Republican period of ancient Rome with an autocratic government and vast territorial holdings around the Mediterranean Sea ('Mare Nostrum')."
+  },
+  {
+    "id": "renaissance",
+    "name": "The Renaissance",
+    "period": "c. 14th century – 17th century",
+    "origin": "Florence, Italy (expanding across Western and Northern Europe)",
+    "key_figures": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Niccolò Machiavelli", "Galileo Galilei", "Petrarch"],
+    "key_innovations": ["Humanism", "Linear perspective in art", "Movable type printing press (Gutenberg)", "Empirical scientific revolution"],
+    "description": "A fervent period of European cultural, artistic, political, and economic rebirth following the Middle Ages, marked by the rediscovery of classical philosophy, literature, and art."
+  },
+  {
+    "id": "industrial_revolution",
+    "name": "The Industrial Revolution",
+    "period": "c. 1760 – 1840 (First phase); 1870 – 1914 (Second phase)",
+    "origin": "Great Britain (spreading to Western Europe and North America)",
+    "key_innovations": ["Watt steam engine", "Mechanized textile manufacturing (Spinning Jenny)", "Railroads and steamships", "Bessemer steel process", "Electrical telegraph"],
+    "description": "The transition from agrarian, handcrafted economies to ones dominated by mechanized industry, machine manufacturing, urban factory systems, and unprecedented economic expansion."
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "greenland",
+    "name": "Greenland",
+    "native_names": ["Kalaallit Nunaat"],
+    "area_sq_km": 2166086,
+    "area_sq_miles": 836330,
+    "sovereignty": "Kingdom of Denmark (Autonomous territory)",
+    "continent": "North America",
+    "population": 56600,
+    "capital": "Nuuk",
+    "description": "The world's largest island that is not a continent, located between the Arctic and Atlantic oceans. Approximately 80% of its surface is covered by the Greenland ice sheet."
+  },
+  {
+    "id": "new_guinea",
+    "name": "New Guinea",
+    "area_sq_km": 785753,
+    "area_sq_miles": 303381,
+    "countries": ["Indonesia", "Papua New Guinea"],
+    "continent": "Oceania",
+    "population": 15000000,
+    "description": "The world's second-largest island, located in the southwestern Pacific Ocean. Divided between Indonesia's western provinces and the independent state of Papua New Guinea in the east."
+  },
+  {
+    "id": "borneo",
+    "name": "Borneo",
+    "area_sq_km": 748168,
+    "area_sq_miles": 288869,
+    "countries": ["Indonesia", "Malaysia", "Brunei"],
+    "continent": "Asia",
+    "population": 23000000,
+    "description": "The third-largest island in the world and the largest in Asia, politically divided among three countries: Malaysia (Sabah and Sarawak), Brunei, and Indonesia (Kalimantan). Home to one of the oldest rainforests on Earth."
+  },
+  {
+    "id": "madagascar",
+    "name": "Madagascar",
+    "area_sq_km": 587041,
+    "area_sq_miles": 226658,
+    "countries": ["Madagascar"],
+    "continent": "Africa",
+    "population": 29000000,
+    "capital": "Antananarivo",
+    "description": "An island country off the southeastern coast of Africa, the world's fourth-largest island. Renowned for its unique biodiversity, with over 90% of its wildlife found nowhere else on Earth (including lemurs)."
+  },
+  {
+    "id": "baffin",
+    "name": "Baffin Island",
+    "area_sq_km": 507451,
+    "area_sq_miles": 195928,
+    "countries": ["Canada"],
+    "territory": "Nunavut",
+    "continent": "North America",
+    "population": 13000,
+    "description": "The largest island in Canada and the fifth-largest island in the world, located in the Canadian territory of Nunavut in the Arctic Archipelago."
+  },
+  {
+    "id": "sumatra",
+    "name": "Sumatra",
+    "area_sq_km": 473481,
+    "area_sq_miles": 182812,
+    "countries": ["Indonesia"],
+    "continent": "Asia",
+    "population": 58500000,
+    "description": "A major island in western Indonesia, the sixth-largest island in the world. Straddles the equator and is known for its rugged volcanic Barisan Mountains, tropical rainforests, and wildlife such as the Sumatran tiger."
+  },
+  {
+    "id": "honshu",
+    "name": "Honshu",
+    "area_sq_km": 227960,
+    "area_sq_miles": 88016,
+    "countries": ["Japan"],
+    "continent": "Asia",
+    "population": 104000000,
+    "description": "The main and largest island of Japan, the seventh-largest island in the world and the second-most populous after Java. Home to Tokyo, Kyoto, Osaka, and Mount Fuji."
+  },
+  {
+    "id": "great_britain",
+    "name": "Great Britain",
+    "area_sq_km": 209331,
+    "area_sq_miles": 80823,
+    "countries": ["United Kingdom"],
+    "nations": ["England", "Scotland", "Wales"],
+    "continent": "Europe",
+    "population": 67000000,
+    "description": "The largest island in Europe and the ninth-largest in the world, comprising the nations of England, Scotland, and Wales, separated from continental Europe by the English Channel."
+  }
+]

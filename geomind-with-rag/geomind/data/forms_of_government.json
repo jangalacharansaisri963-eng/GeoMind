@@ -1,0 +1,78 @@
+[
+  {
+    "id": "democracy",
+    "name": "Democracy",
+    "etymology": "Greek: dēmos ('people') + kratos ('power/rule')",
+    "definition": "A system of government where the citizens exercise power directly or elect representatives from among themselves to form a governing body.",
+    "subtypes": [
+      "Direct Democracy: Citizens participate directly in voting on laws and policies (e.g., ancient Athens, Swiss cantonal referendums).",
+      "Representative Democracy: Citizens elect officials to create legislation and administer policy on their behalf (e.g., United States, United Kingdom, India)."
+    ],
+    "core_principles": ["Popular sovereignty", "Rule of law", "Free, fair, and competitive elections", "Protection of civil liberties and fundamental human rights", "Political pluralism"],
+    "description": "A political framework founded on the belief that government legitimacy derives exclusively from the consent of the governed, ensuring political equality and minority protections."
+  },
+  {
+    "id": "federalism",
+    "name": "Federalism",
+    "etymology": "Latin: foedus ('covenant, treaty, pact')",
+    "definition": "A compound mode of government that combines a general central government with regional governments (states, provinces, cantons) in a single political system, dividing powers between the two.",
+    "characteristics": [
+      "Constitutionally entrenched division of powers between national and state authorities",
+      "Bicameral legislature typically providing regional representation in an upper chamber",
+      "Independent judiciary with constitutional review to arbitrate jurisdictional disputes",
+      "Shared sovereignty preventing either tier from unilaterally abolishing the other"
+    ],
+    "prominent_examples": ["United States", "India", "Germany", "Canada", "Australia", "Switzerland", "Brazil"],
+    "description": "An organizational constitutional arrangement that accommodates geographic scale, cultural or linguistic diversity, and localized self-governance while preserving national unity and defense."
+  },
+  {
+    "id": "constitutional_monarchy",
+    "name": "Constitutional Monarchy",
+    "definition": "A form of monarchy in which the monarch exercises authority in accordance with a written or unwritten constitution, acting as a non-partisan ceremonial head of state.",
+    "characteristics": [
+      "The monarch reigns but does not rule; political authority resides in an elected parliament and prime minister",
+      "Provides institutional continuity, national unity, and ceremonial leadership above partisan politics",
+      "Succession is generally hereditary according to statutory laws"
+    ],
+    "prominent_examples": ["United Kingdom", "Japan", "Sweden", "Norway", "Netherlands", "Spain", "Denmark", "Canada", "Australia"],
+    "description": "A system of governance balancing historical monarchical tradition with representative democracy, where real legislative and executive powers are exercised by democratically accountable institutions."
+  },
+  {
+    "id": "parliamentary_system",
+    "name": "Parliamentary System",
+    "definition": "A democratic system of governance where the executive branch derives its democratic legitimacy from its ability to command the confidence of the legislative branch (parliament), and is held accountable to it.",
+    "characteristics": [
+      "Fusion of powers between the executive (Cabinet/Prime Minister) and the legislature",
+      "Head of government (Prime Minister) is distinct from the head of state (President or Monarch)",
+      "Executive subject to votes of no confidence by the legislature, triggering government dissolution or snap elections"
+    ],
+    "prominent_examples": ["United Kingdom", "India", "Germany", "Canada", "Japan", "Australia", "Italy"],
+    "description": "A widely adopted model of representative democracy prioritizing legislative consensus, coalition agility, and direct executive accountability on the floor of parliament."
+  },
+  {
+    "id": "theocracy",
+    "name": "Theocracy",
+    "etymology": "Greek: theos ('god') + kratos ('rule')",
+    "definition": "A form of government in which a deity is recognized as the supreme ruling authority, giving divine guidance to human intermediaries that manage the day-to-day affairs of the government.",
+    "characteristics": [
+      "Legal codes based directly on sacred religious texts or theological doctrine (e.g., Sharia, Canon law)",
+      "Religious hierarchy exercises executive, legislative, and judicial control",
+      "Freedom of religion and secular political expression are strictly constrained"
+    ],
+    "prominent_examples": ["Vatican City (Holy See)", "Islamic Republic of Iran"],
+    "description": "A political structure where religious doctrine supersedes secular statutory legislation, and government leaders derive legitimacy from religious ordination or scholarly ecclesiastical rank."
+  },
+  {
+    "id": "totalitarianism",
+    "name": "Totalitarianism",
+    "definition": "An extreme authoritarian political system that prohibits all opposition parties, outlaws individual and group opposition to the state, and exercises an extremely high degree of control and regulation over public and private life.",
+    "characteristics": [
+      "Monopoly of political power by a single party led by a dictatorial leader",
+      "All-encompassing official ideology guiding all societal, educational, and economic spheres",
+      "Ubiquitous state surveillance, censorship, and terror enforced by secret police",
+      "Total control of mass communications, media, and cultural production"
+    ],
+    "prominent_examples": ["Soviet Union under Joseph Stalin", "Nazi Germany under Adolf Hitler", "North Korea (DPRK)"],
+    "description": "A state that recognizes no limits to its authority in any sphere of public or private life, aggressively seeking to subordinate the individual entirely to the collective ideological machine."
+  }
+]

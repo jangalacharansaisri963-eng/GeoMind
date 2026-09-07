@@ -1,0 +1,108 @@
+[
+  {
+    "id": "american_revolution",
+    "name": "American Revolutionary War",
+    "period": "1775–1783",
+    "belligerents": {
+      "united_colonies": ["Thirteen Colonies / United States", "Kingdom of France", "Kingdom of Spain", "Dutch Republic"],
+      "british_empire": ["Kingdom of Great Britain", "Loyalists", "German auxiliaries (Hessians)"]
+    },
+    "causes": [
+      "Taxation without representation (Stamp Act, Townshend Acts, Tea Act)",
+      "Enforcement of the Coercive / Intolerable Acts",
+      "Suppression of self-governance and quartering of British troops",
+      "Enlightenment ideals of liberty and John Locke's social contract theory"
+    ],
+    "consequences": [
+      "Treaty of Paris (1783) officially recognizing U.S. independence",
+      "Establishment of the first modern constitutional democratic republic",
+      "Drafting of the United States Constitution and Bill of Rights (1787–1791)",
+      "Global wave of democratic and anti-colonial revolutions (including France and Latin America)"
+    ],
+    "description": "An ideological and political revolution that occurred in colonial North America, resulting in the thirteen British colonies establishing the independent United States of America."
+  },
+  {
+    "id": "french_revolution",
+    "name": "The French Revolution",
+    "period": "1789–1799",
+    "causes": [
+      "Severe financial crisis and royal debt following Seven Years' War and American aid",
+      "Inequitable Estate System (exemption of clergy and nobility from direct taxation)",
+      "Widespread food shortages, harvest failures, and soaring bread prices",
+      "Dissemination of Enlightenment philosophy (Rousseau, Voltaire, Montesquieu)"
+    ],
+    "consequences": [
+      "Abolition of the feudal order and absolute Bourbon monarchy",
+      "Promulgation of the Declaration of the Rights of Man and of the Citizen",
+      "The Reign of Terror and political restructuring under the Jacobins",
+      "Rise of Napoleon Bonaparte and transformation of European legal codes (Napoleonic Code)"
+    ],
+    "description": "A period of radical political and societal upheaval in France that fundamentally transformed modern political history, dismantling the Ancien Régime."
+  },
+  {
+    "id": "world_war_1",
+    "name": "World War I (The Great War)",
+    "period": "1914–1918",
+    "belligerents": {
+      "allies": ["France", "British Empire", "Russian Empire", "Italy", "United States", "Japan", "Serbia"],
+      "central_powers": ["German Empire", "Austria-Hungary", "Ottoman Empire", "Bulgaria"]
+    },
+    "causes": [
+      "Militarism: Arms race, naval competition between Britain and Germany",
+      "Alliances: Interlocking secret defensive pacts (Triple Entente vs. Triple Alliance)",
+      "Imperialism: Clashing colonial interests in Africa and Asia",
+      "Nationalism: Slavic self-determination in the Balkans ('Powder Keg of Europe')",
+      "Immediate Catalyst: Assassination of Archduke Franz Ferdinand in Sarajevo (June 28, 1914)"
+    ],
+    "consequences": [
+      "Collapse of four great imperial dynasties: German, Austro-Hungarian, Russian, and Ottoman empires",
+      "Treaty of Versailles (1919) imposing heavy reparations and territorial losses on Germany",
+      "Bolshevik Revolution and emergence of the Soviet Union (1917)",
+      "Creation of the League of Nations to arbitrate international disputes",
+      "Redrawing of boundaries in Central Europe and the Middle East (Sykes-Picot Agreement)"
+    ],
+    "description": "One of the deadliest global conflicts in history, fought across Europe, the Middle East, and Africa, introducing industrialized trench warfare, poison gas, tanks, and aerial combat."
+  },
+  {
+    "id": "world_war_2",
+    "name": "World War II",
+    "period": "1939–1945",
+    "belligerents": {
+      "allies": ["United States", "Soviet Union", "United Kingdom", "China", "France", "Canada", "Australia"],
+      "axis_powers": ["Nazi Germany", "Imperial Japan", "Kingdom of Italy"]
+    },
+    "causes": [
+      "Resentment over harsh terms of the 1919 Treaty of Versailles",
+      "Rise of totalitarian fascist regimes in Germany (Hitler) and Italy (Mussolini)",
+      "Aggressive territorial expansionism: Germany in Europe, Imperial Japan in Manchuria/China",
+      "Failure and appeasement policies of the League of Nations",
+      "Immediate Trigger: German invasion of Poland on September 1, 1939"
+    ],
+    "consequences": [
+      "Complete defeat and unconditional surrender of the Axis powers; division of Germany",
+      "The Holocaust uncovered: Genocide of six million European Jews and millions of others",
+      "Invention and first wartime use of nuclear weapons (Hiroshima and Nagasaki)",
+      "Founding of the United Nations (1945) with permanent Security Council",
+      "Dawn of the Cold War bipolar rivalry between the United States and the Soviet Union",
+      "Acceleration of worldwide decolonization in Asia and Africa"
+    ],
+    "description": "The deadliest conflict in human history, involving tens of millions of combatants and civilians across Europe, Asia, Africa, and the Pacific, fundamentally reshaping modern global geopolitical institutions."
+  },
+  {
+    "id": "fall_of_constantinople",
+    "name": "The Fall of Constantinople",
+    "period": "1453",
+    "causes": [
+      "Long-term territorial decline and isolation of the Byzantine Empire",
+      "Aggressive military expansion of the Ottoman Empire under Sultan Mehmed II",
+      "Strategic geographic location controlling Black Sea trade routes between Europe and Asia"
+    ],
+    "consequences": [
+      "End of the Eastern Roman (Byzantine) Empire after over 1,000 years",
+      "Constantinople transformed into the capital of the Ottoman Empire (Istanbul)",
+      "Exodus of Byzantine scholars to Italy, heavily accelerating the Renaissance",
+      "Disruption of European overland trade routes to Asia, driving the Age of Discovery and maritime exploration"
+    ],
+    "description": "The capture of the capital of the Byzantine Empire by the invading Ottoman army under Sultan Mehmed II, widely considered by historians as marking the end of the Middle Ages."
+  }
+]
