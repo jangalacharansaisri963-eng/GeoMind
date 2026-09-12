@@ -1,0 +1,33 @@
+# Gradle & Build Artifacts
+.gradle/
+build/
+out/
+bin/
+
+# Fabric Loom & Minecraft Runtimes
+.fabric/
+run/
+crash-reports/
+logs/
+
+# IDE & Editor files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+.java-version
+
+# System and Environment
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Node/Vite template leftovers
+node_modules/
+dist/
+coverage/
